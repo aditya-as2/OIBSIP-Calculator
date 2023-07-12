@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(122, 47, 242),rgb(72, 30, 141));
+}
+.header h4{
+    font-weight: 500;
+    font-size: 1.3rem;
+    cursor: default;
+}
+.main{
+    width: 21rem;
+    height: 42rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+    justify-content: center;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    box-shadow: 0 0 0.4rem black;
+}
+.screen{
+    height: 8rem;
+    width: 19.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: center;
+    font-size: 3.5rem;
+    background-color: rgb(30, 30, 30);
+    flex-direction: column;
+}
+.out, .prev{
+    text-align: right;
+    width: 18.8rem;
+}
+#hv{
+    font-size: 2.2rem;
+    color: rgb(174, 174, 174);
+}
+
+.btn{
+    display: grid;
+    grid-template-rows: repeat(5, 4.7rem);
+    grid-template-columns: repeat(4,4.5rem);
+    grid-gap: 0.5rem;
+    margin: 1rem 0 0.5rem 0;
+    width: 20rem;
+    align-items: center;
+    justify-content: center;
+}
+.b{
+    border-radius: 1rem;
+    width: 4.5rem;
+    height: 4.7rem;
+    border: 0;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+.b:hover{
+    background-color: rgb(29, 29, 29);
+    
+}
+.ac{
+    border-radius: 1rem;
+    width: 4.5rem;
+    height: 4.7rem;
+    border: 0;
+    background-color: rgb(37, 128, 239);
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+.ac:hover{
+    background-color: rgb(70, 145, 236);
+    
+}
+.b1{
+    border-radius: 1rem;
+    width: 4.5rem;
+    height: 4.7rem;
+    border: 0;
+    background-color: rgb(14, 14, 14);
+    font-size: 2rem;
+    cursor: pointer;
+    color: rgb(252, 168, 13);
+    outline: none;
+}
+.b1:hover{
+    background-color: rgb(42, 29, 3);
+    
+}
+.b2{
+    border-radius: 1rem;
+    width: 4.5rem;
+    height: 4.7rem;
+    border: 0;
+    background-color: rgb(232, 155, 14);
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+.b2:hover{
+    background-color: rgb(240, 171, 42);
+    
+}
+.b3{
+    border-radius: 1rem;
+    width: 4.5rem;
+    height: 4.7rem;
+    border: 0;
+    background-color: rgb(14, 14, 14);
+    color: rgb(255, 56, 56);
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+.b3:hover{
+    background-color: rgba(255, 39, 39, 0.148);
+}
+
+.b4{
+    background-color: rgb(14, 14, 14);
+    border: 0;
+}
+.footer, .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.8rem;
+    cursor: default;
+}
+.footer,.footer a{
+    text-decoration: none;
+    color: rgb(218, 218, 218);
+}
+.footer a:hover{
+    color: rgb(238, 171, 45);
+}
